@@ -15,7 +15,7 @@ jobs:
       options: --user 1001
     steps:
       - name: Get code
-        uses: actions/checkout@v2.7.0
+        uses: actions/checkout@v3.3.0
         
       - name: Install dependencies
         run: yarn install
