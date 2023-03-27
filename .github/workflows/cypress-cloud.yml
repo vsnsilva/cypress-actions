@@ -63,7 +63,7 @@ jobs:
         uses: cypress-io/github-action@v5.5.1
         with:
           install-command: yarn install
-          browser: firexo
+          browser: firefox
           record: true
           group: UI Firefox
           spec: ${{ github.event.inputs.spec }}
